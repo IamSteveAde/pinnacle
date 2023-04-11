@@ -64,6 +64,12 @@ nav .navbar li:hover{
 
 }
 @media (max-width: 858px){
+    .logo{
+        margin-left: -40px;
+    }
+    .checkbtn{
+        margin-right: 40px;
+    }
     .checkbtn{
         display: block;
     }
