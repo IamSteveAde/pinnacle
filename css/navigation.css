@@ -1,0 +1,100 @@
+nav .navbar{
+    float: right;
+    list-style: none;  
+    padding-top: 20px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+nav .logo{
+    float: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+nav span{
+    color: white;
+}
+nav span:hover{
+    color: lime;
+}
+nav h1:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+nav h1{
+    color: lime;
+    
+}
+nav .navbar li{
+    display: inline-block;
+    padding-right: 10px;
+}
+nav .navbar li:hover{
+    color: lime;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    display: none;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    nav .navbar{
+        
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: inline;
+        margin-right: 60px;
+        margin-top: 50px;
+        font-size: 26px;
+    }
+
+
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    nav .navbar{
+        position: fixed;
+        width: 90%;
+        height: 100vh;
+        background: lime;
+        top: 80px;
+        left: -120%;
+        text-align: center;
+        justify-content: center;
+        transition: all 1s;
+        border-radius: 20px;
+
+    }
+    nav .navbar li{
+        display: block;
+        padding-top: 50px;
+        font-size: 25px;
+        
+        
+    }
+    nav .navbar li:hover{
+        color: white;
+        
+    }
+    #check:checked ~ .navbar{
+        left: 0;
+        
+    }
+}
+
+
