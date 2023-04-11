@@ -68,7 +68,7 @@ nav .navbar li:hover{
         margin-left: -40px;
     }
     .checkbtn{
-        margin-right: 50px;
+        margin-right: 30px;
     }
     .checkbtn{
         display: block;
@@ -90,6 +90,7 @@ nav .navbar li:hover{
         display: block;
         padding-top: 50px;
         font-size: 25px;
+        
         
         
     }
