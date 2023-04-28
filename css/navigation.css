@@ -17,7 +17,7 @@ nav span{
     color: white;
 }
 nav span:hover{
-    color: lime;
+    color: skyblue;
 }
 nav h1:hover{
     color: white;
@@ -25,7 +25,7 @@ nav h1:hover{
     transform: scale(1.1);
 }
 nav h1{
-    color: lime;
+    color: skyblue;
     
 }
 nav .navbar li{
@@ -33,7 +33,7 @@ nav .navbar li{
     padding-right: 10px;
 }
 nav .navbar li:hover{
-    color: lime;
+    color: skyblue;
     cursor: pointer;
     transform: scale(1.1);
     
@@ -77,19 +77,22 @@ nav .navbar li:hover{
         position: fixed;
         width: 90%;
         height: 100vh;
-        background: rgb(1, 58, 1);
+        background: rgb(0, 17, 24);
         top: 80px;
         left: -120%;
         text-align: center;
         justify-content: center;
         transition: all 1s;
-        border-radius: 20px;
+        border-radius: 5px;
+        z-index: 1100;
+        
 
     }
     nav .navbar li{
         display: block;
         padding-top: 50px;
         font-size: 25px;
+        bottom: 100px;
         
         
         

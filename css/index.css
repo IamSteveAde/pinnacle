@@ -2,4 +2,700 @@ body{
     background: black;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.first-container{
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+.intro{
+    
+    width: 50%;
+    height: 70vh;
+    background : url('/img/bak.png');
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.intro:hover{
+    transform: rotate(1.2deg);
+    
+}
+.intro2{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 80px;
+    cursor: pointer;
+    position: relative;
+    right: -50px;
+    
+    
+}
+.intro2 p{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.hot{
+    color: skyblue;
+    cursor: pointer;
+}
+.first-container p,li{
+    font-size: 18px;
+    
+}
+.first-container h1{
+    border-left: solid 5px skyblue;
+    padding-left: 5px;
+}
+.first-container h1:hover{
+    border-left: solid 5px white;
+    transition: 0.1s;
+    color: skyblue;
+}
+.hot:hover{
+    color: white;
+}
+.first-container li{
+    font-size: 20px;
+}
+.first-container li span{
+    position: relative;
+    left: 6px;
+    top: -6px;
+}
+.first-container li:hover{
+    transform: scale(1.1);
+}
+.code{
+    list-style-image: url(/img/codes.png);
+    margin: 0;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.market{
+    list-style-image: url(/img/market.png);
+    margin: 0;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.content{
+    list-style-image: url(/img/content.png);
+    margin: 0;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.butt{
+    margin-left: 10px;
+}
+.butt .button{
+    border: 2px solid white;
+    width: 20%;
+    height: 5vh;
+    padding-left: 40px;
+    padding-top: 14px; 
+    color: white;  
+    font-weight: 300;
+}
+.butt .button:hover{
+    background-color: skyblue;
+    transition: 1s;
+    color: black;
+}
+.box1{
+    width: 100%;
+    text-align: center;   
+}
+.box1 h1{
+    margin-top: 100px;
+    font-size: 35px;
+}
+.box2{
+    position: relative;
+    border: solid 2px white;
+    width: 250px;
+    height: 35vh;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.boxes{
+    text-align: center;
+    margin-top: 30px;
+}
+.box4{
+    display: none;
+}
+.kites{
+    background-color: black;
+    border: solid 2px skyblue;
+    width: 30%;
+    height: 40%;
+    transform: rotate(40deg);
+    position: relative;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+#icon{
+    margin-left: -10px;
+    position: relative;
+    margin-top: 45px; 
+}
+.box3{
+    margin-top: 30px;
+}
+.box2:hover .kites{
+    background-color: white;
+    color: black;
+    border: solid 2px skyblue;
+    box-shadow: 5px 5px 5px skyblue;
+    transition: 2s;
+
+}
+.box2:hover{
+    box-shadow:  5px 5px lightblue ;
+    cursor: pointer;
+    transition: 1s;
+}
+.intro3{
+    margin-top: 100px;
+    width: 100%;
+}
+.intro3 h1{
+    font-size: 35px;
+}
+.inner3{
+    
+    
+}
+.web{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    
+}
+.container3, .inner3{
+    float: right;
+    width: 50%;
+    position: relative;
+    margin-top: 50px;
+}
+.innerleft{
+    float: left;
+    width: 20%;
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 30px;
+
+}
+.inner3 .butt{
+    margin-left: 1px;
+}
+.abt{
+    width: 100%;
+    
+    
+}
+.abt1{
+    width: 100%;
+    text-align: center;   
+}
+.abt1 h1{
+    margin-top: 100px;
+    font-size: 35px;
+}
+.under{
+    position: relative;
+    background-color: #ADEEE2;
+    width: 50px;
+    height: 4px;
+    left: 52%;
+    margin-top: -30px;
+
+}
+.under2{
+    position: relative;
+    background-color: #ADEEE2;
+    width: 50px;
+    height: 4px;
+    left: 44%;
+    margin-top: -4px;
+
+}
+.abt3{
+    width: 80%;
+    height: 60vh;
+    background-color: black;
+    border: solid 2px white;
+    margin-top: 20px;
+    border-bottom-left-radius: 160PX;
+    
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 160px;
+    border-top-left-radius: 10px;
+    margin-left: 100px;
+    background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
+    background-size: cover;
+    display: flex;
+    
+    
+}
+.abt4{
+    background-color: white;
+    width: 40%;
+    border: solid 2px green;
+    border: solid 2px black;
+    height: 90%;
+    border-bottom-left-radius: 160px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 8px 10px black;
+    color: green;
+}
+.circle{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    border-radius: 40%;
+    position: relative;
+    left: 40%;
+    margin-top: -12px;
+    text-align: center;
+   
+}
+.circle i{
+    font-size: 50px;
+    margin-top: 19px;
+    color: black;
+
+}
+.abt4 p{
+    font-size: 15px;
+    width: 85%;
+    margin-left: 55px;
+    text-align: left;
+    margin-top: 3px;
+    color: black;
+    
+}
+.abt5{
+    width: 50%;
+    
+}
+.abt55{
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+.sub-menu-1{
+    display: none;
+}
+.abt7 .market:hover .sub-menu-1{
+    display: block;
+    
+}
+.abt7 .content:hover .sub-menu-1{
+    display: block;
+    
+}
+.client1{
+    width: 100%;
+    display:flex;
+    
+}
+.client2{
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 290px;
+    margin-left: 20px;
+    margin-right: 200px;
+    
+}
+.client2 img{
+    width: 50%;
+    height: 55vh;
+    border-radius: 20px;
+    
+
+}
+.clients{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ;
+}
+.client3{
+    width: 30%;
+    background-color: #ADEEE2;
+    color: black;
+    height: 55vh;
+    
+    box-sizing: border-box;
+    
+}
+.autoplay{
+    position: relative;
+    left: -200px;
+    border-radius: 30px;
+    width: 25%;
+}
+.client4{
+    position: relative;
+    margin-left: -30%;
+    padding-left: 20%;
+    margin-top: -23%;
+    height: 10vh;
+}
+.client4 img{
+    border-radius: 50%;
+    height: 98%;
+    width: 40%;
+
+
+}
+.client5{
+    float: left;
+}
+.client6{
+    position: relative;
+    left: -30px;
+    
+}
+.client3 p{
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+.client4{
+    position: relative;
+    top: 60px;
+    width: 80%;
+    text-align: left;
+    left: 110;
+    
+}
+.client4 p{
+    text-align: left;
+}
+.client33{
+    width: 95%;
+    position: relative;
+    margin-top: 30px;
+}
+.client6 h6{
+    font-size: 20px;
+}
+.client6 p{
+    font-size: 12px;
+    margin-top: -40px;
+}
+.client6{
+    position: relative;
+    top: 13px;
+    left: -40px;
+}
+.indicator{
+    position: relative;
+    left: -20px;
+    transform: translateX(-50%);
+    bottom: -80px;
+}
+.btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+#active{
+    width: 45px;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.foot{
+    background-color: rgb(0, 17, 24);
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+@media (max-width: 952px){
+    .first-container{
+        display: grid;
+    }
+    .intro{
+    
+        width: 100%;
+        height: 70vh;
+        background : url('/img/bak.png');
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    .intro2{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    .intro2 p{
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .butt .button{
+        border: 2px solid white;
+        width: 30%;
+        height: 5vh;
+        padding-left: 40px;
+        padding-top: 14px; 
+        color: white;  
+        font-weight: 300;
+    }
+    .web{
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding-left: 2px;
+        
+    }
+    .inner3 .butt{
+        width: 120%;
+        text-align: center;
+        
+    }
+    .butt .button{
+        text-align: center;
+        position: relative;
+        padding-left: -100px;
+    }
+    .inner3 .butt .button{
+        
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .abt3{
+        width: 100%;
+        height: 160vh;
+        background-color: black;
+        border: solid 2px white;
+        margin-top: 20px;
+        border-bottom-left-radius: 160PX;
+        
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 160px;
+        border-top-left-radius: 10px;
+        margin-left: 5px;
+        background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
+        background-size: cover;
+        display: grid;
+        
+        
+    }
+    .abt4{
+        background-color: white;
+        width: 80%;
+        border: solid 2px green;
+        border: solid 2px black;
+        height: 50%;
+        border-bottom-left-radius: 160px;
+        margin-top: 55px;
+        margin-left: 25px;
+        float: left;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 8px 10px black;
+        color: green;
+        padding-top: 50px;
+    }
+    .abt5{
+        width: 100%;
+        
+    }
+    .abt55{
+        position: relative;
+        left: 5%;
+        top: -10%;
+        margin-left: 25px;
+    }
+    .sub-menu-1 li{
+        font-size: 15px;
+        position: relative;
+        width: 300px;
+    }
+    .client1{
+        display: grid;
+        width: 100%;
+    }
+    .client2{
+        position: relative;
+        left: 10px;
+        width: 100%;
+    }
+    .client2 img{
+        width: 340px;
+    }
+    
+
+}
+@media (max-width: 858px){
+    .first-container{
+        display: grid;
+    }
+    .intro{
+    
+        width: 100%;
+        height: 70vh;
+        background : url('/img/bak.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .intro2{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        cursor: pointer;
+        position: relative;
+    }
+    .intro2 p{
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .butt .button{
+        border: 2px solid white;
+        width: 30%;
+        height: 5vh;
+        padding-left: 40px;
+        padding-top: 14px; 
+        color: white;  
+        font-weight: 300;
+    }
+    body{
+        font-size: 17px;
+    }
+    .box2{
+        position: relative;
+        margin-top: 20px;
+    }
+    .web{
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding-left: 30px;
+        
+    }
+    .inner3 .butt{
+        width: 120%;
+        position: relative;
+        padding-right: -200px;
+    }
+    .inner3 .butt .button{
+        
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .abt3{
+        width: 100%;
+        height: 120vh;
+        background-color: black;
+        border: solid 2px white;
+        margin-top: 20px;
+        border-bottom-left-radius: 160PX;
+        
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 160px;
+        border-top-left-radius: 10px;
+        margin-left: 5px;
+        background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
+        background-size: cover;
+        display: grid;
+        
+        
+    }
+    .abt4{
+        background-color: white;
+        width: 80%;
+        border: solid 2px green;
+        border: solid 2px black;
+        height: 280px;
+        border-bottom-left-radius: 160px;
+        margin-top: 55px;
+        margin-left: 25px;
+        float: left;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 8px 10px black;
+        color: green;
+        padding-top: 50px;
+    }
+    .abt5{
+        width: 100%;
+        
+    }
+    .abt55{
+        position: relative;
+        left: 5%;
+        top: -10%;
+        margin-left: 25px;
+    }
+    .sub-menu-1 li{
+        font-size: 15px;
+        position: relative;
+        width: 300px;
+    }
+    .client1{
+        display: grid;
+        width: 100%;
+    }
+    .client2{
+        position: relative;
+        left: 10px;
+        width: 100%;
+    }
+    .client2 img{
+        width: 340px;
+    }
+   
+    
+    
+
 }
