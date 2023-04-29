@@ -241,26 +241,27 @@ html{
 .abt3{
     width: 80%;
     height: 60vh;
-    background-color: black;
-    border: solid 2px white;
-    margin-top: 20px;
-    border-bottom-left-radius: 160PX;
     
+    border: solid 1px;
+    margin-top: 20px;
+    border-bottom-left-radius: 50PX;
+   
     border-bottom-right-radius: 10px;
     border-top-right-radius: 160px;
     border-top-left-radius: 10px;
     margin-left: 100px;
-    background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.986)), url("/img/wallll.jpg") fixed;
     background-size: cover;
     display: flex;
     
     
 }
 .abt4{
-    background-color: white;
+    
     width: 40%;
-    border: solid 2px green;
-    border: solid 2px black;
+    border: solid 1px rgba(45, 46, 46, 0.938);
+    
     height: 90%;
     border-bottom-left-radius: 160px;
     margin-top: 15px;
@@ -268,9 +269,9 @@ html{
     float: left;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-shadow: 8px 10px black;
-    color: green;
+    border-top-left-radius: 10px;
+    
+    color: white;
 }
 .circle{
     width: 20%;
@@ -290,12 +291,12 @@ html{
 
 }
 .abt4 p{
-    font-size: 15px;
+    font-size: 18px;
     width: 85%;
     margin-left: 55px;
     text-align: left;
     margin-top: 3px;
-    color: black;
+    color: white;
     
 }
 .abt5{
@@ -304,7 +305,7 @@ html{
 }
 .abt55{
     position: relative;
-    left: 10%;
+    left: 30%;
     top: 20%;
 }
 .sub-menu-1{
@@ -528,6 +529,7 @@ html{
         height: 80%;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
+        margin-top: 30px;
     }
     .abt5{
         width: 100%;
@@ -545,5 +547,8 @@ html{
         margin-left: 14px;
         margin-top: 30px;
         width: 95%;
+    }
+    .abt55{
+        left: 10%;
     }
 }
