@@ -449,253 +449,39 @@ html{
     margin: 0 auto;
     margin-top: 50px;
 }
-@media (max-width: 952px){
-    .first-container{
-        display: grid;
-    }
-    .intro{
-    
-        width: 100%;
-        height: 70vh;
-        background : url('/img/bak.png');
-        
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        
-    }
-    .intro2{
-        width: 100%;
-        height: auto;
-        margin-top: 80px;
-        cursor: pointer;
-        position: relative;
-        
-    }
-    .intro2 p{
-        margin-left: 1px;
-        font-size: 20px;
-    }
-    .butt .button{
-        border: 2px solid white;
-        width: 30%;
-        height: 5vh;
-        padding-left: 40px;
-        padding-top: 14px; 
-        color: white;  
-        font-weight: 300;
-    }
-    .web{
-        position: relative;
-        display: flex;
-        width: 100%;
-        padding-left: 2px;
-        
-    }
-    .inner3 .butt{
-        width: 120%;
-        text-align: center;
-        
-    }
-    .butt .button{
-        text-align: center;
-        position: relative;
-        padding-left: -100px;
-    }
-    .inner3 .butt .button{
-        
-        position: relative;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-    .abt3{
-        width: 100%;
-        height: 160vh;
-        background-color: black;
-        border: solid 2px white;
-        margin-top: 20px;
-        border-bottom-left-radius: 160PX;
-        
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 160px;
-        border-top-left-radius: 10px;
-        margin-left: 5px;
-        background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
-        background-size: cover;
-        display: grid;
-        
-        
-    }
-    .abt4{
-        background-color: white;
-        width: 80%;
-        border: solid 2px green;
-        border: solid 2px black;
-        height: 50%;
-        border-bottom-left-radius: 160px;
-        margin-top: 55px;
-        margin-left: 25px;
-        float: left;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 8px 10px black;
-        color: green;
-        padding-top: 50px;
-    }
-    .abt5{
-        width: 100%;
-        
-    }
-    .abt55{
-        position: relative;
-        left: 5%;
-        top: -10%;
-        margin-left: 25px;
-    }
-    .sub-menu-1 li{
-        font-size: 15px;
-        position: relative;
-        width: 300px;
-    }
-    .client1{
-        display: grid;
-        width: 100%;
-    }
-    .client2{
-        position: relative;
-        left: 10px;
-        width: 100%;
-    }
-    .client2 img{
-        width: 340px;
-    }
-    
-
-}
 @media (max-width: 858px){
     .first-container{
         display: grid;
     }
     .intro{
-    
         width: 100%;
-        height: 70vh;
-        background : url('/img/bak.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+        margin-left: -50px;
+
     }
     .intro2{
         width: 100%;
-        height: auto;
-        margin-top: 80px;
-        cursor: pointer;
-        position: relative;
-    }
-    .intro2 p{
-        margin-left: 1px;
-        font-size: 20px;
+        margin-left: -20px;
+
     }
     .butt .button{
-        border: 2px solid white;
-        width: 30%;
-        height: 5vh;
-        padding-left: 40px;
-        padding-top: 14px; 
-        color: white;  
-        font-weight: 300;
+        width: 25%;
     }
-    body{
-        font-size: 17px;
+}
+@media (max-width: 952px){
+    .first-container{
+        display: grid;        
     }
-    .box2{
-        position: relative;
-        margin-top: 20px;
-    }
-    .web{
-        position: relative;
-        display: flex;
+    .intro{
         width: 100%;
-        padding-left: 30px;
-        
-    }
-    .inner3 .butt{
-        width: 120%;
-        position: relative;
-        padding-right: -200px;
-    }
-    .inner3 .butt .button{
-        
-        position: relative;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-    .abt3{
-        width: 100%;
-        height: 120vh;
-        background-color: black;
-        border: solid 2px white;
-        margin-top: 20px;
-        border-bottom-left-radius: 160PX;
-        
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 160px;
-        border-top-left-radius: 10px;
-        margin-left: 5px;
-        background: linear-gradient(rgba(59, 60, 66, 0.52)), url('/img/line.png');
-        background-size: cover;
-        display: grid;
-        
-        
-    }
-    .abt4{
-        background-color: white;
-        width: 80%;
-        border: solid 2px green;
-        border: solid 2px black;
-        height: 280px;
-        border-bottom-left-radius: 160px;
-        margin-top: 55px;
-        margin-left: 25px;
-        float: left;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 8px 10px black;
-        color: green;
-        padding-top: 50px;
-    }
-    .abt5{
-        width: 100%;
-        
-    }
-    .abt55{
-        position: relative;
-        left: 5%;
-        top: -10%;
-        margin-left: 25px;
-    }
-    .sub-menu-1 li{
-        font-size: 15px;
-        position: relative;
-        width: 300px;
-    }
-    .client1{
-        display: grid;
-        width: 100%;
-    }
-    .client2{
-        position: relative;
-        left: 10px;
-        width: 100%;
-    }
-    .client2 img{
-        width: 340px;
-    }
-   
-    
-    
+        margin-left: -50px;
 
+    }
+    .intro2{
+        width: 100%;
+        margin-left: -20px;
+
+    }
+    .butt .button{
+        width: 25%;
+    }
 }
