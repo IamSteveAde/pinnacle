@@ -553,8 +553,7 @@ html{
         left: 10%;
     }
     .autoplay{
-        width: 70%;
-        position: relative;
-        left: -30%;
+        width: 80%;
+        margin-left: 20px;
     }
 }
