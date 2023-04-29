@@ -508,4 +508,12 @@ html{
         position: relative;
 
     }
+    .web{
+        padding-left: 20px;
+        
+        
+    }
+    .inner3{
+        width: 100%;
+    }
 }
