@@ -486,6 +486,9 @@ html{
         margin-top: -4px;
     
     }
+    .box2{
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 952px){
     .first-container{
@@ -523,5 +526,9 @@ html{
         left: 59%;
         margin-top: -4px;
     
+    }
+    .box2{
+        margin-bottom: 20px;
+        width: 80%;
     }
 }
