@@ -454,8 +454,9 @@ html{
         display: grid;
     }
     .intro{
-        width: 100%;
+        width: 80%;
         margin-left: -50px;
+        background-size: cover;
 
     }
     .intro2{
@@ -472,8 +473,9 @@ html{
         display: grid;        
     }
     .intro{
-        width: 100%;
+        width: 80%;
         margin-left: -50px;
+        background-size: cover;
 
     }
     .intro2{
