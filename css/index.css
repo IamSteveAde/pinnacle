@@ -139,25 +139,25 @@ html{
 }
 .kites{
     background-color: black;
-    border: solid 2px skyblue;
-    width: 30%;
-    height: 40%;
-    transform: rotate(40deg);
+    border: solid 1px black;
+    width: 20%;
+    height: 28%;
+    
     position: relative;
     margin-top: 30px;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 #icon{
-    margin-left: -10px;
+    
     position: relative;
-    margin-top: 45px; 
+    margin-top: 25px; 
 }
 .box3{
     margin-top: 30px;
 }
 .box2:hover .kites{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: skyblue;
     border: solid 2px skyblue;
     box-shadow: 5px 5px 5px skyblue;
     transition: 2s;
@@ -489,6 +489,9 @@ html{
     .box2{
         margin-bottom: 20px;
     }
+    .box3{
+        padding-top: 5px;
+    }
 }
 @media (max-width: 952px){
     .first-container{
@@ -530,5 +533,8 @@ html{
     .box2{
         margin-bottom: 20px;
         width: 80%;
+    }
+    .box3{
+        padding-top: 5px;
     }
 }
