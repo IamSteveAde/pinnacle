@@ -450,48 +450,7 @@ html{
     margin-top: 50px;
 }
 @media (max-width: 858px){
-    .first-container{
-        display: grid;
-    }
-    .intro{
-        width: 80%;
-        margin-left: -50px;
-        background-size: cover;
-
-    }
-    .intro2{
-        width: 100%;
-        margin-left: -22px;
-        padding-right: 10px;
-
-    }
-    .butt .button{
-        width: 25%;
-    }
-    .under{
-        position: relative;
-        
-        width: 40px;
-        height: 4px;
-        left: 32%;
-        margin-top: -30px;
-    
-    }
-    .under2{
-        position: relative;
-        
-        width: 40px;
-        height: 4px;
-        left: 59%;
-        margin-top: -4px;
-    
-    }
-    .box2{
-        margin-bottom: 20px;
-    }
-    .box3{
-        padding-top: 5px;
-    }
+   
 }
 @media (max-width: 952px){
     .first-container{
@@ -535,6 +494,13 @@ html{
         width: 80%;
     }
     .box3{
-        padding-top: 5px;
+        margin-bottom: -35px;
+    }
+    #icon{
+        font-size: 30px;
+    }
+    .box33{
+        margin-top: 40px;
+
     }
 }
