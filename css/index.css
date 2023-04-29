@@ -468,6 +468,24 @@ html{
     .butt .button{
         width: 25%;
     }
+    .under{
+        position: relative;
+        
+        width: 40px;
+        height: 4px;
+        left: 32%;
+        margin-top: -30px;
+    
+    }
+    .under2{
+        position: relative;
+        
+        width: 40px;
+        height: 4px;
+        left: 59%;
+        margin-top: -4px;
+    
+    }
 }
 @media (max-width: 952px){
     .first-container{
@@ -487,5 +505,23 @@ html{
     }
     .butt .button{
         width: 25%;
+    }
+    .under{
+        position: relative;
+        
+        width: 40px;
+        height: 4px;
+        left: 32%;
+        margin-top: -30px;
+    
+    }
+    .under2{
+        position: relative;
+        
+        width: 40px;
+        height: 4px;
+        left: 59%;
+        margin-top: -4px;
+    
     }
 }
