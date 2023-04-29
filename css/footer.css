@@ -86,7 +86,7 @@
 }
 @media (max-width: 952px){
     .foot{
-        height: 120vh;
+        height: 120%;
         width: 100%;
     }
 }
