@@ -519,13 +519,14 @@ html{
         margin-left: -20px;
     }
     .abt3{
-        width: 80%;
+        width: 95%;
         height: 140%;
         margin-left: 0%;
         display: grid;
+        border-top-right-radius: 0px;
     }
     .abt4{
-        width: 70%;
+        width: 90%;
         height: 80%;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
