@@ -1,0 +1,39 @@
+.service-box1{
+    display: flex;
+    width: 100%;
+}
+.service-box2{
+    width: 50%;
+    float: left;
+    
+    
+}
+.service-box3{
+    width: 50%;
+    float: right;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.service-box3 .cc{
+    text-align: left;
+}
+.arrow{
+    color: skyblue;
+}
+h1{
+    font-size: 20px;
+    color: skyblue;
+}
+@media (max-width: 600px){
+    .service-box1{
+        display: grid;
+    }
+    .service-box2{
+        width: 100%;
+    }
+    .service-box3{
+        margin-left: 10px;
+        width: 80%;
+        margin-top: 4px;
+    }
+}

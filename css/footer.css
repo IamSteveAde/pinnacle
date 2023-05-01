@@ -7,6 +7,12 @@
     top: 20px;
     padding-left: 20px;
     
+    
+}
+.foot{
+    height: 60vh;
+    width: 100%;
+    margin-left: -10px;
 }
 .footr{
     float: right;
@@ -81,6 +87,7 @@
     .foot{
         height: 120vh;
         width: 100%;
+        margin-left: -10px;
     }
 }
 @media (max-width: 952px){
