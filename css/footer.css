@@ -56,22 +56,21 @@
     
     background-color: rgb(0, 17, 24);
     border: solid 2px white;
-    width: 50%;
+    width: 100%;
     height: 7vh;
     color: white;
     padding-left: 20px;
 
 }
-#sub_button:hover{
-    background-color: skyblue;
-    border: none;
-}
 
-#sub_button{
+
+
+.subscribeb{
+    background-color: rgb(0, 17, 24);
     width: 50%;
     height: 7vh;
-    text-align: center;
-    color: rgb(0, 17, 24);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
 
 }

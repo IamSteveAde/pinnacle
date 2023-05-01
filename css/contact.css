@@ -239,7 +239,7 @@ textarea:-webkit-autofill:focus{
     border-radius: 0%;
     border-bottom: 1px solid #2f3239;
 }
-input[type=submit]{
+.form_container input[type=submit]{
     width: 38%;
     padding: 15px 0px !important;
     text-align: center;

@@ -3,9 +3,13 @@ body{
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .first-container{
     display: flex;
@@ -251,7 +255,7 @@ html{
     border-top-left-radius: 10px;
     margin-left: 100px;
    
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.986)), url("/img/wallll.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.582)), url("/img/wallll.jpg") fixed;
     background-size: cover;
     display: flex;
     
@@ -564,4 +568,17 @@ html{
         left: -7px;
 
     }
+    .inner3 .butt{
+        width: 120%;
+        padding-right: -100px;
+    }
+    .inner3 .butt p{
+        
+        padding-right:25px;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
