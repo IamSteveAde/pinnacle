@@ -97,11 +97,11 @@ h1{
         display: grid;
     }
     .butts{
-        width: 22%;
+        width: 25%;
     }
     .step1{
         width: 80%;
-        height: 35vh;
+        
         margin-bottom: 25px;
     }
     .join1 img{
