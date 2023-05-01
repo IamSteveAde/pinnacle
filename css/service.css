@@ -38,5 +38,6 @@ h1{
     }
     .service-box2{
         width: 80%;
+        margin-left: -10px;
     }
 }
